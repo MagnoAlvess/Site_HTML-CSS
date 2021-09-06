@@ -1,0 +1,165 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+#menu{
+    background-color: #009FDB;
+    padding: 20px;
+    
+}
+
+#menu ul{
+    max-width: 1000px;/*tamanho máximo de largura*/
+    list-style: none; /* estilo de lista nenhum */
+    padding: 0;
+    
+}
+
+#menu ul li{
+    display: inline; /* mostrar em linha */
+}
+
+#menu ul li a{
+    color: #FFF;
+    font-weight: bold; /*força da fonte*/
+    text-decoration: none;/* decoração de texto*/
+    margin: 10px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#menu ul li a:hover{
+    color: #0D3455;
+    transition: 0.5s; /*transição*/
+}
+
+#logo{
+    text-align: center;/*centralizar itens e texto*/
+}
+
+#banner{
+    width: 100%;
+    background: #0D3455;
+    height: 400px;
+}
+
+.icone{
+    margin-top: 3%;/*margem de cima*/
+    margin-left: 25%;/*margem da esquerda*/
+}
+
+.texto_banner{
+    color: #FFF;
+    font-size: 150px;
+    float: right;/*deslocar para a direita*/
+    margin-right: 35%;
+    margin-top: 5%;
+    text-shadow: 10px 10px black;
+}
+
+.texto_banner:hover{
+    color: aqua;    
+}
+
+#sobre{
+    background-color: #CCEAFF;
+    overflow: auto;/*evitar vazamento da div*/
+}
+
+.titulo_sobre{
+    color: #0D3455;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.linha{
+    margin: 0 auto;
+    max-width: 10%;
+    border: 2px solid #0D3455;
+}
+
+.box1{
+    width: 500px;
+    float: left;
+    margin-left: 20%;
+    margin-top: 2%;
+   
+}
+
+.box2{
+    width: 500px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 2%;
+    
+}
+
+.texto_sobre{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;/*justificar texto*/
+    font-size: 14pt;
+    line-height: 30px; /* altura da linha */
+}
+
+.table{
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.table tr td{
+    padding: 30px;
+}
+
+#footer{
+    background-color: #009FDB;
+    padding: 10px;
+}
+
+.texto_footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFF;
+}
+
+.social tr td{
+    padding: 5px;
+}
+
+.titulo_graducao{
+    color: #0D3455;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#sobrecursos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;/*justificar texto*/
+    font-size: 14pt;
+    line-height: 30px; /* altura da linha */
+}
+
+.titulo_posgraducao{
+    color: #0D3455;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#menu_academico{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;/*justificar texto*/
+    font-size: 16pt;
+    line-height: 30px; /* altura da linha */
+}
+
+#menu_inst{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;/*justificar texto*/
+    font-size: 16pt;
+    line-height: 30px; /* altura da linha */
+}
+
+
+
